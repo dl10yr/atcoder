@@ -1,0 +1,35 @@
+{
+  "cp load input": {
+      "prefix": "cp load input",
+      "body": [
+          "input_case = 1",
+          "with open('./input.txt') as file:",
+          "    input_lines = file.read().split('\\n\\n')[input_case - 1].split('\\n')",
+          "def input(): return input_lines.pop(0)"
+      ]
+  },
+  "cp int": {
+      "prefix": "cp int",
+      "body": ["int(input())"]
+  },
+  "cp map": {
+      "prefix": "cp map",
+      "body": ["map(int, input().split())"]
+  },
+  "cp s list": {
+      "prefix": "cp s list",
+      "body": ["input().split()"]
+  },
+  "cp n list": {
+      "prefix": "cp n list",
+      "body": ["list(map(int, input().split()))"]
+  },
+  "cp 2d n list": {
+      "prefix": "cp 2d n list",
+      "body": ["[list(map(int, input().split())) for i in range(n)]"]
+  },
+  "cp 2d s list": {
+      "prefix": "cp 2d s list",
+      "body": ["[list(input()) for i in range(n)]"]
+  }
+}
