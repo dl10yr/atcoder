@@ -1,0 +1,12 @@
+{
+	"id": 52414896,
+	"epoch_second": 1713189916,
+	"problem_id": "tessoku_book_w",
+	"contest_id": "tessoku-book",
+	"user_id": "dl10yr",
+	"language": "Python (PyPy 3.10-v7.3.12)",
+	"point": 1000,
+	"length": 823,
+	"result": "AC",
+	"execution_time": 123
+}
