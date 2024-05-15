@@ -1,0 +1,12 @@
+{
+	"id": 53500970,
+	"epoch_second": 1715771870,
+	"problem_id": "math_and_algorithm_bn",
+	"contest_id": "tessoku-book",
+	"user_id": "dl10yr",
+	"language": "Python (PyPy 3.10-v7.3.12)",
+	"point": 1000,
+	"length": 257,
+	"result": "AC",
+	"execution_time": 620
+}
